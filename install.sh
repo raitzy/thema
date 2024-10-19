@@ -17,7 +17,7 @@ display_welcome() {
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${RED}[+] =============================================== [+]${NC}"
   echo -e ""
-  echo -e "script ini di buat untuk mempermudah penginstalasian thema pterodactyl,"
+  echo -e "script ini di buat untuk mempermudah penginstalasian thema pterodactyl atau bot install panel,"
   echo -e "dilarang keras untuk memperjual belikan."
   echo -e ""
   echo -e "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :"
@@ -68,7 +68,7 @@ check_token() {
     echo -e "${GREEN}Buy dulu Gih Ke Ardhita/Ryzen${NC}"
     echo -e "${YELLOW}TELEGRAM : @ArdhitaOfficial/@RYZENOFFC1${NC}"
     echo -e "${YELLOW}WHATSAPP : 6289603214173/6281228569181${NC}"
-    echo -e "${YELLOW}HARGA TOKEN : 10K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
+    echo -e "${YELLOW}HARGA TOKEN : 25K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
     echo -e "${YELLOW}©ArdhitaOffc & RyzenOffc${NC}"
     exit 1
   fi
