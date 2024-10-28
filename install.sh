@@ -13,7 +13,7 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                  © ARDXRYZ OFFC                 [+]${NC}"
+  echo -e "${BLUE}[+]                  © ALWAYSRAITZY                 [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${RED}[+] =============================================== [+]${NC}"
   echo -e ""
@@ -21,9 +21,9 @@ display_welcome() {
   echo -e "dilarang keras untuk memperjual belikan."
   echo -e ""
   echo -e "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :"
-  echo -e "@ArdhitaOfficial/@RYZENOFFC1"
+  echo -e "@vx-alwaysraitzy"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "@ArdhitaOffc & RyzenOffc"
+  echo -e "@ALWAYSRAITZY"
   sleep 4
   clear
 }
@@ -56,20 +56,20 @@ install_jq() {
 check_token() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               LICENSY ARDXRYZ OFFC             [+]${NC}"
+  echo -e "${BLUE}[+]               LICENSY ALWAYSRAITZY             [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "ryzenxardhitakece" ]; then
+  if [ "$USER_TOKEN" = "raitzykece" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
-    echo -e "${GREEN}Buy dulu Gih Ke Ardhita/Ryzen${NC}"
-    echo -e "${YELLOW}TELEGRAM : @ArdhitaOfficial/@RYZENOFFC1${NC}"
-    echo -e "${YELLOW}WHATSAPP : 6289603214173/6281228569181${NC}"
+    echo -e "${GREEN}Buy dulu Gih Ke AlwaysRaiTzy${NC}"
+    echo -e "${YELLOW}TELEGRAM : @vx-alwaysrsitzy${NC}"
+    echo -e "${YELLOW}WHATSAPP : 6285711351328${NC}"
     echo -e "${YELLOW}HARGA TOKEN : 25K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
-    echo -e "${YELLOW}©ArdhitaOffc & RyzenOffc${NC}"
+    echo -e "${YELLOW}©ALWAYSRAITZY${NC}"
     exit 1
   fi
   clear
@@ -92,7 +92,7 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/ardxryz/thema/raw/main/C2.zip")
+        THEME_URL=$(echo -e "https://github.com/raitzy/thema/raw/main/C2.zip")
         break
         ;;
       2)
@@ -100,7 +100,7 @@ install_theme() {
         break
         ;;
       3)
-        THEME_URL=$(echo -e "https://github.com/ardxryz/thema/raw/main/C3.zip")
+        THEME_URL=$(echo -e "https://github.com/raitzy/thema/raw/main/C3.zip")
         break
         ;; 
       x)
@@ -226,7 +226,7 @@ uninstall_theme() {
   echo -e "${BLUE}[+]                    DELETE THEME                 [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  bash <(curl https://raw.githubusercontent.com/ardxryz/thema/main/repair.sh)
+  bash <(curl https://raw.githubusercontent.com/raitzy/thema/main/repair.sh)
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e "${GREEN}[+]                 DELETE THEME SUKSES             [+]${NC}"
@@ -245,7 +245,7 @@ echo -e "${BLUE}[+] =============================================== [+]${NC}"
 echo -e "                                                                   "
 
 # Unduh file tema
-wget -O /root/C2.zip https://github.com/ardxryz/thema/raw/main/C2.zip
+wget -O /root/C2.zip https://github.com/raitzy/thema/raw/main/C2.zip
 
 # Ekstrak file tema
 unzip /root/C2.zip -d /root/pterodactyl
@@ -510,11 +510,11 @@ while true; do
   echo -e "${RED}  ,ggggg        gggggggg.                                 ${NC}"
   echo -e "${RED} ,ggg'               'ggg.                                ${NC}"
   echo -e "${RED}',gg       ,ggg.      'ggg:                               ${NC}"
-  echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer ArdXRyz   ${NC}"
-  echo -e "${RED}gggg      gg     ,     ggg      ------------------------  ${NC}"
-  echo -e "${RED}ggg:     gg.     -   ,ggg       • Telegram : RYZENOFFC1   ${NC}"
-  echo -e "${RED} ggg:     ggg._    _,ggg        • Creadit  : ARDXRYZOFFC  ${NC}"
-  echo -e "${RED} ggg.    '.'''ggggggp           • Support by ArdhitaOffc  ${NC}"
+  echo -e "${RED}'ggg      ,gg'''  .    ggg      Auto Installer Raitzy     ${NC}"
+  echo -e "${RED}gggg      gg     ,     ggg     ------------------------   ${NC}"
+  echo -e "${RED}ggg:     gg.     -   ,ggg      • Telegram : alwaysraitzy  ${NC}"
+  echo -e "${RED} ggg:     ggg._    _,ggg       • Creadit  : awaysraitzy   ${NC}"
+  echo -e "${RED} ggg.    '.'''ggggggp          • Support by alwaysraitzy  ${NC}"
   echo -e "${RED}  'ggg    '-.__                                           ${NC}"
   echo -e "${RED}    ggg                                                   ${NC}"
   echo -e "${RED}      ggg                                                 ${NC}"
