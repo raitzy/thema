@@ -1,7 +1,7 @@
 # Theme
 JANGAN DIJUAL BELAKAN YE BWANG !!!
 BUTUH LICENSE/PW CHAT TELE GUA
->> t.me/vx-alwaysraitzy <<
+>> t.me/raitzysigma <<
 
 Comand Run Install Thema
 
